@@ -1,11 +1,11 @@
-/* Name: Your Full Name */
-/* Student Number: Your Registration Number */
+/* KATONGOLE SHADDAI KISA*/
+/* 2500801380: 25/U/BIE/01380/PE*/
 
 #include <stdio.h>
 
 int main(void)
 {
-    /* Write your code here */
+
 
     return 0;
 }
