@@ -2,10 +2,20 @@
 /* 2500801380: 25/U/BIE/01380/PE*/
 
 #include <stdio.h>
+int main() {
+    float amount, fee_percent, fee, total;
 
-int main(void)
-{
+    printf("Enter amount to send: ");
+    scanf("%f", &amount);
 
+    printf("Enter transaction fee : ");
+    scanf("%f", &fee_percent);
+
+    fee = (fee_percent / 100) * amount;
+    total = amount + fee;
+
+    printf("\nTransaction fee: %.2f UGX\n", fee);
+    printf("Total deducted: %.2f UGX\n", total);
 
     return 0;
 }
